@@ -27,11 +27,11 @@ ADMIN_USER_ID = 5670703958  # Sizin Telegram kullanıcı ID'niz (bildirim için)
 
 # Saldırı tespit ayarları
 THRESHOLD_TIME_SECONDS = 60  # Kontrol süresi (saniye) - 1 dakika
-THRESHOLD_COUNT = 20  # Bu sürede kaç kişi gelirse saldırı sayılsın
+THRESHOLD_COUNT = 10  # Bu sürede kaç kişi gelirse saldırı sayılsın
 CLEANUP_WINDOW_MINUTES = 2  # Kaç dakika geriye gidip temizlesin
 
 # Normal moda dönüş ayarları
-NORMAL_MODE_THRESHOLD = 15  # Dakikada bu sayının altı = normal mod
+NORMAL_MODE_THRESHOLD = 10  # Dakikada bu sayının altı = normal mod
 ATTACK_MODE_COOLDOWN = 120  # Saldırı bitince kaç saniye beklesin (2 dakika)
 
 # ==================== GLOBAL DEĞİŞKENLER ====================
